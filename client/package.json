@@ -1,0 +1,56 @@
+{
+  "name": "nextjs--starter-kit-template",
+  "version": "1.0.0",
+  "description": "NextJS + TailwindCSS Template with PurgeCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
+  },
+  "keywords": [],
+  "author": {
+    "email": "mak.gnu@gmail.com",
+    "name": "Mukesh Yadav",
+    "url": "https://mukeshyadav.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@mapbox/rehype-prism": "^0.5.0",
+    "@types/popper.js": "^1.11.0",
+    "chart.js": "^2.9.3",
+    "cross-env": "^5.2.0",
+    "cssnano": "^4.1.10",
+    "moment": "^2.27.0",
+    "next": "^9.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^16.8.6",
+    "react-chartjs-2": "^2.10.0",
+    "react-dom": "^16.8.6",
+    "react-use": "^12.8.0",
+    "rehype-prism": "^0.1.1",
+    "rehype-stringify": "^8.0.0",
+    "remark-parse": "^8.0.3",
+    "remark-rehype": "^7.0.0",
+    "styled-jsx-plugin-postcss": "^2.0.1",
+    "unified": "^9.2.0"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^9.5.3",
+    "@types/node": "^12.6.2",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "@zeit/next-css": "^1.0.1",
+    "date-fns": "^2.16.1",
+    "gray-matter": "^4.0.2",
+    "next-purgecss": "^3.1.1",
+    "tailwindcss": "^1.7.6",
+    "typescript": "^3.5.3"
+  }
+}
